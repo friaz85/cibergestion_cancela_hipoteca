@@ -1,0 +1,201 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/aos/dist/aos.css';
+
+@font-face {
+    font-family: 'Scotia';
+    src: url('assets/fonts/scotia/Scotia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html, body { height: 100%; font-family: 'Scotia' !important;}
+body { margin: 0;}
+
+.wrapper {
+  height: auto !important;
+}
+.vCenterLogo {
+  display: flex;
+  align-items: center;
+}
+
+.vCenter {
+  align-items: center !important;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imgLogo {
+  max-width: 181px;
+  max-height: 112px;
+}
+
+.imgLogo-min {
+  max-width: 45px;
+}
+
+.app-sidebar .logo {
+  position: relative;
+  padding: 0.5rem 0 0.5rem 0.5rem !important;
+  z-index: 4;
+
+}
+
+
+.icon-scotia {
+  color: #fff;
+}
+
+.app-sidebar .navigation .menu-title {
+  color: #000 !important;
+
+}
+
+.app-sidebar .navigation li > a {
+  padding: 10px 10px 10px 10px !important;
+  border-top: 1px solid #999999;
+}
+
+.app-sidebar .navigation .menu-title {
+  font-size: 1.2rem !important;
+}
+
+.img-menu {
+  max-width: 200px;
+}
+
+.app-sidebar {
+  z-index: 11;
+}
+
+.p-dialog-mask.p-component-overlay {
+  background-color: #000000d9 !important;
+}
+
+.p-dialog {
+  box-shadow: none !important;
+}
+.p-dialog .p-dialog-header {
+  background: transparent !important;
+}
+
+.p-dialog .p-dialog-content {
+  background: transparent !important;
+  overflow: hidden;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+  color: var(--primary) !important;
+  background: #e9ecef !important;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover {
+  color: #e9ecef !important;
+  background: var(--primary) !important;
+}
+
+body[data-menu=vertical-menu] .app-sidebar .navigation li.active > a:before {
+  border-right: solid 5px var(--primary) !important;
+}
+
+.p-selectbutton .p-button.p-highlight {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #ffffff;
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  color: #fff !important;
+}
+
+.p-column-filter-menu-button {
+  color: #fff !important;
+}
+
+.p-fileupload .p-fileupload-buttonbar .p-button {
+  color: #ffffff;
+  background: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+}
+.p-fileupload .p-fileupload-buttonbar .p-button:hover {
+  background: #00588c !important;
+  color: #ffffff;
+  border-color: #00588c !important;
+}
+
+.p-fileupload-choose:not(.p-disabled):hover {
+  background: #00588c !important;
+  color: #ffffff;
+  border-color: #00588c !important;
+}
+
+.p-button:enabled:hover {
+  background: #00588c !important;
+  color: #ffffff;
+  border-color: #00588c !important;
+}
+
+.p-fileupload-row:last-child > div > button {
+  color: #ffffff;
+  background: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+}
+
+.p-fileupload .p-fileupload-buttonbar {
+  display: flex;
+  justify-content: center;
+}
+
+.sidenav-overlay {
+  z-index: 2 !important;
+}
+.bl {
+  white-space: pre-line;
+}
+
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: var(--primary) !important;
+  color: #fff;
+  font-size: 1em;
+}
+
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: 0 0 0 3px #193176 !important;
+}
+
+
+.theme-green .bs-datepicker-head {
+  background-color: var(--primary) !important;
+}
+
+.theme-green .bs-datepicker-body table td.week span {
+  color: var(--primary) !important;
+}
+
+.theme-green .bs-datepicker-body table td span.selected, .theme-green .bs-datepicker-body table td.selected span, .theme-green .bs-datepicker-body table td span[class*=select-]:after, .theme-green .bs-datepicker-body table td[class*=select-] span:after {
+  background-color: var(--primary) !important;
+}
+
+.theme-green .bs-datepicker-body table td span.selected, .theme-green .bs-datepicker-body table td.selected span, .theme-green .bs-datepicker-body table td span[class*=select-]:after, .theme-green .bs-datepicker-body table td[class*=select-] span:after {
+  background-color: var(--primary) !important;
+}
+
+.theme-green .bs-datepicker-body table td span.selected, .theme-green .bs-datepicker-body table td.selected span, .theme-green .bs-datepicker-body table td span[class*=select-]:after, .theme-green .bs-datepicker-body table td[class*=select-] span:after {
+  background-color: var(--primary) !important;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}

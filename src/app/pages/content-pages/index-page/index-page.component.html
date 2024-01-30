@@ -1,0 +1,320 @@
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/logos/CIBERGESTION_Logo.svg" width="255" height="82" alt="">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button"
+            (click)="isNavbarCollapsed = !isNavbarCollapsed" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div [ngbCollapse]="isNavbarCollapsed" class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link">Sigue tu solicitud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero d-flex">
+    <div class="pb-2 pl-2 pr-2">
+        <div class="row row-hero">
+            <div class="col-lg-12 d-flex flex-column justify-content-center col-left"
+            data-aos="fade-right">
+                <div class="col-left-text">
+                    <h1 data-aos="fade-up" data-aos-duration="1500">Cancela tu hipoteca</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="1500"><b>en simples pasos</b></h1>
+                    <h2 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">Realiza en ingresa tu solicitud si has culminado el pago total</h2>
+                    <h2 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">o quieres anticipar pagos de tu crédito hipotecario.</h2>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1500">
+                    <div class="text-left text-lg-start">
+                        <a (click)="openLogin(content)"
+                            class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span>Iniciar sesión</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!-- End Hero -->
+
+<!-- ======= Card Section ======= -->
+<section>
+  <div class="row mt-4">
+    <div class="col-12 text-center">
+      <h1 class="text-blue">Tipos de cancelación hipotecaria</h1>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-lg-3 col-md-6 col-12" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1500">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-img">
+            <img class="card-img-top img-fluid" src="../../../assets/img/gallery/5.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-blue">Sin condición de pago</h3>
+            <p>La cancelación que se realiza en el momento en que finaliza el plazo de la hipoteca y se han pagado</p>
+          </div>
+          <div class="card-footer text-center">
+            Solicitar >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-12" data-aos="fade" data-aos-delay="400" data-aos-duration="1500">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-img">
+            <img class="card-img-top img-fluid" src="../../../assets/img/gallery/1.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-blue">Condicionado al pago</h3>
+            <p>Antes de que finalice el plazo por el que se concedió el crédito hipotecario y aún queda un capital pendiente de pago (cuotas).</p>
+          </div>
+          <div class="card-footer text-center">
+            Solicitar >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-12" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1500">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-img">
+            <img class="card-img-top img-fluid" src="../../../assets/img/gallery/2.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-blue">Art. 19 bis</h3>
+            <p>Las instrucciones están obligadas a poner a disposición del cliente su testimonio de cancelación de hipoteca.</p>
+          </div>
+          <div class="card-footer text-center">
+            Solicitar >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Bell Section ======= -->
+
+<section class="sectionBell">
+  <div class="d-flex justify-content-center align-items-center">
+    <img src="../../../assets/img/icons/Bell_NO.svg" alt="" class="img-fluid-sectionBell mt-2 mb-2">
+    <img src="../../../assets/img/icons/Balloon_NO.svg" alt="" class="img-fluid-sectionBell ml-3">
+    <button class="nav-link ml-3 mt-3">Sigue tu solicitud</button>
+  </div>
+</section>
+
+<!-- ======= Information ======= -->
+
+<section class="mt-4">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="text-blue">Información importante para</h1>
+      <h1 class="text-blue">el levantamiento de tu hipoteca</h1>
+    </div>
+  </div>
+  <!-- Desktop -->
+  <div class="row rowDesk d-flex justify-content-center align-items-center">
+    <div class="col-md-4">
+      <ul>
+        <li class="liInfo liArrowRigth float-right">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <span class="ml-1">Mostrar los comprobantes de pagos completos.</span>
+        </li>
+        <li class="liInfo liArrowRigth float-right mt-2">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <span class="ml-1">Si otra persona ingresa el proceso de solicitud, debe contar con un poder de autorización.</span>
+        </li>
+        <li class="liInfo liArrowRigth float-right mt-2">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <div class="d-flex flex-flow-row-wrap">
+            <span class="ml-1">Para el registro público, deberás cubrir:</span>
+            <ul class="flex-column">
+              <li class="text-blue-light">
+                Gastos notariales
+              </li>
+              <li class="text-blue-light">
+                Gastos registrales
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img src="../../../assets/img/banner/Bullets-Pics.png" alt="" class="img-fluid">
+    </div>
+    <div class="col-md-4">
+      <ul class="p-0">
+        <li class="liInfo liArrowLeft float-left">
+          <div class="d-flex flex-flow-row-wrap">
+            <span class="mr-1">Contar con:</span>
+            <ul class="flex-column">
+              <li class="text-blue-light">
+                Identificación oficial
+              </li>
+              <li class="text-blue-light">
+                Copia simple de partida, etc.
+              </li>
+            </ul>
+          </div>
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+        </li>
+        <li class="liInfo liArrowLeft float-left mt-2">
+          <div class="d-flex flex-flow-row-wrap">
+            <span class="mr-1">Evite demoras:</span>
+            <ul class="flex-column">
+              <li class="text-blue-light">
+                Complete el formulario con información verídica.
+              </li>
+            </ul>
+          </div>
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+        </li>
+        <li class="liInfo liArrowLeft float-left mt-2">
+          <span class="mr-1">Para agilizar el trámite, se recomienda indicar una notaría de nuestro staff.</span>
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Fin Desktop -->
+
+  <!-- Mobile -->
+  <div class="row rowMobile d-flex justify-content-center align-items-center">
+    <div class="col-sm-6 col-12 text-center">
+      <img src="../../../assets/img/banner/Bullets-Pics.png" alt="" class="img-fluid">
+    </div>
+    <div class="col-sm-6 col-12 col-flex">
+      <ul class="ul-flex">
+        <li class="liInfo liArrowLeft float-right">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <span class="ml-1">Mostrar los comprobantes de pagos completos.</span>
+        </li>
+        <li class="liInfo liArrowLeft float-right mt-2">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <span class="ml-1">Si otra persona ingresa el proceso de solicitud, debe contar con un poder de autorización.</span>
+        </li>
+        <li class="liInfo liArrowLeft float-right mt-2">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <div class="d-flex flex-flow-row-wrap">
+            <span class="ml-1">Para el registro público, deberás cubrir:</span>
+            <ul class="flex-column">
+              <li class="text-blue-light">
+                Gastos notariales
+              </li>
+              <li class="text-blue-light">
+                Gastos registrales
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="liInfo liArrowLeft float-left mt-2">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <div class="d-flex flex-flow-row-wrap">
+            <span class="ml-1">Contar con:</span>
+            <ul class="flex-column">
+              <li class="text-blue-light">
+                Identificación oficial
+              </li>
+              <li class="text-blue-light">
+                Copia simple de partida, etc.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="liInfo liArrowLeft float-left mt-2">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <div class="d-flex flex-flow-row-wrap">
+            <span class="ml-1">Evite demoras:</span>
+            <ul class="flex-column">
+              <li class="text-blue-light">
+                Complete el formulario con información verídica.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="liInfo liArrowLeft float-left mt-2 mb-4">
+          <i class="fa-regular fa-circle-check fa-3x"></i>
+          <span class="ml-1">Para agilizar el trámite, se recomienda indicar una notaría de nuestro staff.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Fin Mobile -->
+</section>
+
+
+<!-- Modal Login -->
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+      <h4 class="modal-title"></h4>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body text-center">
+        <form [formGroup]="loginForm">
+            <div class="form-group">
+              <fieldset class="w-100">
+                <label for="basicInput">Usuario</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                      <i class="fa-solid fa-user"></i>
+                    </span>
+                  </div>
+                  <input type="text" formControlName="username" class="form-control" placeholder="Usuario"
+                    [ngClass]="{ 'is-invalid': loginFormSubmitted && lf.username.invalid, 'is-valid': loginFormSubmitted && !lf.username.invalid }"
+                    required>
+                  </div>
+                  <div *ngIf="loginFormSubmitted && (lf.username.invalid || lf.username.errors?.required)"
+                    class="help-block text-danger"> <i class="ft-alert-circle align-middle"></i> Campo
+                    requerido
+                  </div>
+              </fieldset>
+            </div>
+            <div class="form-group">
+              <fieldset class="w-100">
+                <label for="basicInput">Contraseña</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                      <i class="fa-solid fa-lock"></i>
+                    </span>
+                  </div>
+                  <input type="password" formControlName="password" class="form-control" placeholder="Contraseña"
+                    [ngClass]="{ 'is-invalid': loginFormSubmitted && lf.password.invalid, 'is-valid': loginFormSubmitted && !lf.password.invalid }"
+                    required>
+                  </div>
+                  <div *ngIf="loginFormSubmitted && (lf.password.invalid || lf.password.errors?.required)"
+                class="help-block mt-1 text-danger"> <i class="ft-alert-circle align-middle"></i> Campo requerido
+              </div>
+              </fieldset>
+            </div>
+            <div class="d-flex justify-content-between flex-sm-row flex-column">
+              <a class="btn btn-primary btn-block" (click)="onSubmit()">Ingresar</a>
+            </div>
+          </form>
+    </div>
+
+  </ng-template>
+  <!-- Fin Modal Login -->

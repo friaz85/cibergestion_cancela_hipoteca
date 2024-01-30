@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Scotia Headline';
+    src: url('Scotia-Headline.eot');
+    src: local('Scotia Headline'), local('Scotia-Headline'),
+        url('Scotia-Headline.eot?#iefix') format('embedded-opentype'),
+        url('Scotia-Headline.woff2') format('woff2'),
+        url('Scotia-Headline.woff') format('woff'),
+        url('Scotia-Headline.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotia';
+    src: url('Scotia-Bold.eot');
+    src: local('Scotia Bold'), local('Scotia-Bold'),
+        url('Scotia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Scotia-Bold.woff2') format('woff2'),
+        url('Scotia-Bold.woff') format('woff'),
+        url('Scotia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotia';
+    src: url('Scotia-Regular.eot');
+    src: local('Scotia Regular'), local('Scotia-Regular'),
+        url('Scotia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Scotia-Regular.woff2') format('woff2'),
+        url('Scotia-Regular.woff') format('woff'),
+        url('Scotia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotia';
+    src: url('Scotia-Light.eot');
+    src: local('Scotia Light'), local('Scotia-Light'),
+        url('Scotia-Light.eot?#iefix') format('embedded-opentype'),
+        url('Scotia-Light.woff2') format('woff2'),
+        url('Scotia-Light.woff') format('woff'),
+        url('Scotia-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotia Legal';
+    src: url('Scotia-Legal.eot');
+    src: local('Scotia Legal'), local('Scotia-Legal'),
+        url('Scotia-Legal.eot?#iefix') format('embedded-opentype'),
+        url('Scotia-Legal.woff2') format('woff2'),
+        url('Scotia-Legal.woff') format('woff'),
+        url('Scotia-Legal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
