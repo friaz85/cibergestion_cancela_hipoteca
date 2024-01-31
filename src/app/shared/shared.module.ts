@@ -6,7 +6,6 @@ import { OverlayModule } from '@angular/cdk/overlay';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateModule } from '@ngx-translate/core';
-import { PerfectScrollbarModule } from "ngx-perfect-scrollbar";
 import { ClickOutsideModule } from 'ng-click-outside';
 
 import { AutocompleteModule } from './components/autocomplete/autocomplete.module';
@@ -56,7 +55,6 @@ import { FullLayoutComponent } from 'app/layouts/full/full-layout.component';
         FormsModule,
         OverlayModule,
         ReactiveFormsModule ,
-        PerfectScrollbarModule,
         ClickOutsideModule,
         AutocompleteModule,
         PipeModule

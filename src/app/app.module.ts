@@ -5,14 +5,12 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 // import { AngularFireAuthModule } from "@angular/fire/auth";
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-import { AgmCoreModule } from "@agm/core";
 import { HttpClientModule, HttpClient } from "@angular/common/http";
 import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { NgxSpinnerModule } from 'ngx-spinner';
 
 import {
-  PerfectScrollbarModule,
   PERFECT_SCROLLBAR_CONFIG,
   PerfectScrollbarConfigInterface
 } from 'ngx-perfect-scrollbar';
@@ -66,10 +64,7 @@ export function createTranslateLoader(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    AgmCoreModule.forRoot({
-      apiKey: "YOUR_GOOGLE_MAP_API_KEY"
-    }),
-    PerfectScrollbarModule
+
   ],
   providers: [
     AuthService,
