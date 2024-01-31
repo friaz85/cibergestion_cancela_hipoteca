@@ -14,7 +14,6 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import {TabViewModule} from 'primeng/tabview';
 import {RippleModule} from 'primeng/ripple';
 import {DropdownModule} from 'primeng/dropdown';
-import { FullCalendarModule } from '@fullcalendar/angular';
 import {SelectButtonModule} from 'primeng/selectbutton';
 import {CalendarModule} from 'primeng/calendar';
 import {InputMaskModule} from 'primeng/inputmask';
@@ -31,21 +30,16 @@ import {AutoCompleteModule} from 'primeng/autocomplete';
 import {TooltipModule} from 'primeng/tooltip';
 import {NgxPrintModule} from 'ngx-print';
 import {FieldsetModule} from 'primeng/fieldset';
-import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { BsDatepickerModule, BsLocaleService } from "ngx-bootstrap/datepicker";
 
 import { PageComponent } from "./page.component";
-import dayGridPlugin from '@fullcalendar/daygrid'; // a plugin!
+
 
 import es from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
 registerLocaleData(es);
 
 
-FullCalendarModule.registerPlugins([ // register FullCalendar plugins
-  dayGridPlugin,
-
-]);
 
 @NgModule({
   imports: [
@@ -64,7 +58,6 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     TabViewModule,
     RippleModule,
     DropdownModule,
-    FullCalendarModule,
     SelectButtonModule,
     CalendarModule,
     InputMaskModule,
@@ -81,7 +74,6 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     TooltipModule,
     NgxPrintModule,
     FieldsetModule,
-    NgxGalleryModule,
     BsDatepickerModule
   ],
   exports: [],
